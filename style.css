@@ -1,0 +1,51 @@
+div {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.target:nth-child(odd) {
+    background-color: #000;
+}
+.target:nth-child(even) {
+    background-color: #fff;
+}
+.test {
+    margin-left: 600px;
+    margin-top: 400px;
+}
+/* .layer-one, .layer-three, .layer-five, .layer-seven {
+    background-color: #000;
+}
+.layer-two, .layer-four, .layer-six {
+    background-color: #fff;
+} */
+.layer-one {
+    width: 700px;
+    height: 700px;
+}
+.layer-two {
+    width: 600px;
+    height: 600px;
+}
+.layer-three {
+    width: 500px;
+    height: 500px;
+}
+.layer-four {
+    width: 400px;
+    height: 400px;
+}
+.layer-five {
+    width: 300px;
+    height: 300px;
+}
+.layer-six {
+    width: 200px;
+    height: 200px;
+}
+.layer-seven {
+    width: 100px;
+    height: 100px;
+}
